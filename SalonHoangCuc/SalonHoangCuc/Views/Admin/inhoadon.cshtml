@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>In hóa đơn</title>
+</head>
+<body onload="window.print()">
+	<page size="bill" style="margin-bottom: 20px;">
+		<div class="text-center">
+			<br><br>
+			<h4><b>CUCHOANG HAIR SALON</b></h4>
+			<p style="margin: 0;">Đ/c: 29 Liễu Giai - Ba Đình - Hà Nội</p>
+			<p style="margin: 0;">Hotline: 024 666 26168</p>
+			<p style="margin: 0;"><b>HÓA ĐƠN THANH TOÁN</b></p>
+		</div>
+		<div class="container">
+		  	<table style="width: 72mm;">
+			  	<tr>
+				    <td class="text-left"><b>Số HĐ:</b></td>
+				    <td class="text-right" style="margin-right: 5px"><b>HĐ1 &nbsp;</b></td>
+				    <td class="text-left" style="margin-left: 5px;"><b>&nbsp; TN:</b></td>
+				    <td class="text-right">Hương</td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>KH:</b></td>
+				    <td class="text-right" style="margin-right: 5px">Liên &nbsp;</td>
+				    <td class="text-left" style="margin-left: 5px;"><b>&nbsp; Ngày:</b></td>
+				    <td class="text-right">20/10/2022</td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Giờ vào:</b></td>
+				    <td class="text-right" style="margin-right: 5px">10:12:12 &nbsp;</td>
+				    <td class="text-left" style="margin-left: 5px;"><b>&nbsp; Giờ ra:</b></td>
+				    <td class="text-right">11:12:12</td>
+			  	</tr>
+			</table>
+		</div>
+		<hr style="width: 72mm; border: 1px solid gray; margin-top: 5px; margin-bottom: 0px;">
+		<table class="table" style="width: 76mm; margin-left:5px; margin-right: 5px; margin-bottom: 0px;">
+		  <thead>
+		    <tr>
+		      <th scope="col"><small>STT</small></th>
+		      <th scope="col"><small>Dịch vụ</small></th>
+		      <th scope="col"><small>SL</small></th>
+		      <th scope="col"><small>Đơn giá</small></th>
+		      <th scope="col"><small>TT</small></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td></small>1</td>
+		      <td></small>ORGANIC 40 phút</small></td>
+		      <td></small>10</small></td>
+		      <td></small>180000</small></td>
+		      <td></small>1800000</small></td>
+		    </tr>
+		    <tr>
+		      <td></small>2</td>
+		      <td></small>máy giặt công xuất siêu cao</small></td>
+		      <td></small>10</small></td>
+		      <td></small>180000</small></td>
+		      <td></small>1800000</small></td>
+		    </tr>
+		  </tbody>
+	   </table>
+	   <hr style="width: 72mm; border: 1px solid gray; margin-top: 0px; margin-bottom: 0px;">
+	   <div class="container">
+		  	<table style="width: 72mm;">
+			  	<tr>
+				    <td class="text-left"><b>Thành tiền:</b></td>
+				    <td class="text-right" style="margin-right: 5px"><b>680 000&nbsp;</b></td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Thành tiền VAT:</b></td>
+				    <td class="text-right" style="margin-right: 5px"></b> &nbsp;</b></td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Chiết khấu:</b></td>
+				    <td class="text-right" style="margin-right: 5px"></b> &nbsp;</b></td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Tổng cộng:</b></td>
+				    <td class="text-right" style="margin-right: 5px"><b>680 000&nbsp;</b></td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Hình thức thanh toán:</b></td>
+				    <td class="text-right" style="margin-right: 5px">Tiền mặt&nbsp;</td>
+			  	</tr>
+			  	<tr>
+				    <td class="text-left"><b>Hạng khách hàng:</b></td>
+				    <td class="text-right" style="margin-right: 5px">Vàng&nbsp;</td>
+			  	</tr>
+			</table>
+		</div>
+		<br>
+		<hr style="width: 72mm; border: 1px solid gray; margin-top: 0px; margin-bottom: 0px;">
+		<div class="text-center">
+			<i><b>Cảm ơn Quý khách và hẹn gặp lại</b></i>
+		</div>
+	</page>
+</body>
+<style type="text/css">
+	body {
+  		background: rgb(204,204,204); 
+	}
+	page {
+	  background: white;
+	  display: block;
+	  margin: 0 auto;
+	  margin-bottom: 0.5cm;
+	  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	}
+	page[size="bill"] {  
+	  width: 80mm;
+	  
+	}
+	@media print {
+	  body, page {
+	    margin: 0;
+	    box-shadow: 0;
+  	}
+}
+</style>
+</html>
+
+<!-- onload="window.print()" -->
